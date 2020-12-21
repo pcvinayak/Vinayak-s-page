@@ -1,0 +1,287 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .fa-instagram 
+            {
+                background: #125688;
+                color: white;
+            }
+            .fa 
+            {
+                padding: 10px;
+                font-size: 30px;
+                width: 30px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+            }
+            .fa-linkedin {
+                background: #007bb5;
+                color: white;
+            }
+            body{
+                margin:0px;
+                height: 100%;
+            }
+            .sec1
+            {
+                height:115%;
+                position: center;
+                overflow: hidden;
+                width: 100%;
+            }
+            #main{
+                background: #1E242A;
+            }
+            #aboutme{
+                background: #4596a8;
+            }
+            #education{
+                background: #59ac97;
+            }
+            #projects{
+                background: #499949;
+            }
+            #hobby{
+                background: #b7c054;
+            }
+            #contact{
+                background: #b48c3a;
+            }
+            #box1
+            {
+                width: 366px;
+                height: 472px;
+                background-image: url('im3.jpg');
+                position: absolute;
+                bottom: -100%;
+                left: 40%;
+                animation: anim 2s forwards, anim2 3s forwards 3s;
+            }
+            #box1::after
+            {
+                content: '';
+                position: absolute;
+                width: 366px;
+                height: 472px;
+                background-image: url('im3.jpg');
+                left: 0px;
+            }
+            @keyframes anim 
+            {
+                from{
+                    bottom: -100%;
+                }
+                to{
+                    bottom: 10%;
+                }
+            }
+            @keyframes anim2 
+            {
+                from{
+                    left: 40%;
+                    width: 366px;
+                }
+                to{
+                    width: 0px;
+                    left:60%
+                }
+            }
+            #box2
+            {
+                width: auto;
+                height: auto;
+                font-family: 'Bahnschrift Condensed';
+                color: white;
+                font-size: 10em;
+                font-weight: 500;
+                line-height: 170px;
+                position: absolute;
+                top: 250px;
+                left: 100px;
+                padding-bottom: 50px;
+                overflow: hidden;
+            }
+            #text
+            {
+                position: relative;
+                left: -100%;
+                animation: anim3 3s forwards 3s;
+            }
+            .text1
+            {
+                position: relative;
+                left: 0%;
+            }
+            @keyframes anim3 
+            {
+                from{
+                    left: -100%;
+                }
+                to{
+                    left: 0%;
+                }
+            }
+            .titlebox
+            {
+                font-family: 'Bahnschrift Condensed';
+                color: white;
+                font-size: 8em;
+                font-weight: 500;
+                position: relative;
+                left: 70px;
+                padding-bottom: 50px;
+                overflow: hidden;
+                width: 40%;
+                float: left;
+                top: 50%;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+            .box3
+            {
+                position: relative;
+                margin-left: 40%;
+                top: 50%;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+                font-family: 'Bahnschrift Condensed';
+                color: white;
+                font-size: 2.5em;
+            }
+            .box4
+            {
+                width: 50%;
+                position: relative;
+                margin-left: 47%;
+                top: 50%;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+                font-family: 'Bahnschrift Condensed';
+                color: white;
+                font-size: 2em;
+            }
+            li
+            {
+                margin: 10px 0;
+            }
+        </style>
+        <title>Vinayak's Page</title>
+    </head>
+    <body>
+        <div id="main" class="sec1">
+            <div id="box1"></div>
+
+            <div id="box2">
+                <div id="text">
+                    Vinayak<br> P Choyyan
+                </div>
+            </div>
+        </div>
+        <div id="aboutme" class="sec1">
+            <div class="titlebox">
+                <div class="text1">
+                    Who am<br> I ?
+                </div>
+            </div>
+            <div class="box3">
+                I am a B. Tech graduate student,<br>
+                doing my M.Tech in CSE at NIT Suratkal.<br><br>
+                Someone with leadership qualities,<br>
+                coding experience, and interest in robotics<br> and mentorship.
+            </div>
+        </div>
+        <div id="education" class="sec1">
+            <div class="titlebox">
+                <div class="text1">
+                    Education
+                </div>
+            </div>
+            <div class="box3">
+                2020-2022 <br>M. Tech - National Institute of Technology Suratkal<br><br>
+                2015-2019 <br>B. Tech - Government College of Engineering Kannur<br><br>
+                2013-2015 <br>ISC (class 12) - Hiranandani Foundation School Thane<br><br>
+                2003-2013 <br>ICSE (class 10) - Hiranandani Foundation School Thane<br><br>
+            </div>
+        </div>
+        <div id="projects" class="sec1">
+            <div class="titlebox">
+                <div class="text1" style="font-size: 110px;">
+                    Projects and<br>
+                    Achievements
+                </div>
+            </div>
+            <div class="box4">
+                <ul>
+                    <li>
+                        Developed a cheap and portable Malaria detector based on A.I.<br>
+                    </li>
+                    <li>
+                        Intern at Tata Consultancy Services as full stack developer<br>
+                    </li>
+                    <li>
+                        Was part of a student exchange program to National Ilan University Taiwan<br>
+                    </li>
+                    <li>
+                        Contributed to develope exam seat allocation system during undergrad for the college<br>
+                    </li>
+                    <li>
+                        Got the position of programming head at Robocek (my B.Tech college's robotics group) and guided many juniors through their projects<br>
+                    </li>
+                    <li>
+                        Designed and prototyped PCB(printed circuit boards) for projects at Robocek<br>
+                    </li>
+                    <li>
+                        Participated in multiple line follower robot and soccor robot competition at intercollege techfests<br>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="hobby" class="sec1">
+            <div class="titlebox">
+                <div class="text1">
+                    Hobby
+                </div>
+            </div>
+            <div class="box3">
+                <ul>
+                    <li>
+                        Travelling to new places
+                    </li>
+                    <li>
+                        Driving
+                    </li>
+                    <li>
+                        Amature photography
+                    </li>
+                    <li>
+                        Experimental electronic projects
+                    </li>
+                    <li>
+                        Learning a language, fixated on Japanese currently
+                    </li>
+                    <li>
+                        Teaching
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+        <div id="contact" class="sec1">
+            <div class="titlebox">
+                <div class="text1">
+                    Contact
+                </div>
+            </div>
+            <div class="box3">
+                <i class="fa fa-mobile-phone" style="font-size:48px;color:white"></i> : +91 84528 06507<br>
+                <i class="fa fa-phone" style="font-size:48px;color:white"></i> : +91 22 2586 2336<br>
+                <i class="fa fa-envelope" style="font-size:48px;color:white"></i> : pcvinayak@gmail.com<br>
+                <i class="fa fa-envelope-o" style="font-size:48px;color:white"></i> : pcvinayak.202cs033@nitk.edu.in<br>
+                <a href="https://www.linkedin.com/in/vinayak-choyyan-85a154202/" class="fa fa-linkedin"></a> : LinkedIn  <br>
+                <a href="https://www.instagram.com/deadmandrifting/" class="fa fa-instagram"></a> : Instagram <br>
+                
+            </div>
+        </div>
+    </body>
+</html>
